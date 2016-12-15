@@ -26,7 +26,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="salesforce-python-toolkit",
-    version='0.1.5-maxnaude.1',
+    version='0.1.5.maxnaude.1',
     description="",
     long_description="",
     author="David Lanstein",
