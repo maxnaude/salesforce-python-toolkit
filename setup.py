@@ -26,7 +26,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="salesforce-python-toolkit",
-    version='0.1.5',
+    version='0.1.5-maxnaude.1',
     description="",
     long_description="",
     author="David Lanstein",
@@ -35,9 +35,9 @@ setup(
     download_url="http://code.google.com/p/salesforce-python-toolkit/downloads/list",
     platforms=['any'],
     dependency_links = [
-        'http://github.com/unomena/suds/tarball/0.4.unomena.3#egg=suds-0.4.unomena.3'
+        'http://github.com/unomena/suds/tarball/0.4.unomena.4#egg=suds-0.4.unomena.4'
     ],
-    install_requires=['suds==0.4.unomena.3'],
+    install_requires=['suds==0.4.unomena.4'],
 
     license="LGPL",
     packages=find_packages('.'),
