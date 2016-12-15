@@ -34,7 +34,10 @@ setup(
     url="http://code.google.com/p/salesforce-python-toolkit/",
     download_url="http://code.google.com/p/salesforce-python-toolkit/downloads/list",
     platforms=['any'],
-    install_requires=['suds==0.3.9'],
+    dependency_links = [
+        'http://github.com/unomena/suds/tarball/0.4.unomena.3#egg=suds-0.4.unomena.3'
+    ],
+    install_requires=['suds==0.4.unomena.3'],
 
     license="LGPL",
     packages=find_packages('.'),
